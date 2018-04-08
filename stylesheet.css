@@ -160,6 +160,32 @@ pre,
 code {
     font-family: 'Roboto Mono', sans-serif;
 }
+
+div.banner{
+	font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+	text-align: center;
+	color: #657b83;
+	margin-bottom: 10%;
+}
+#name{
+	color: #657b83;
+	text-decoration: none;
+	font-size: 5em;
+}
+#name:hover {
+    color: #3f9f9f;
+}
+p#subtitle{
+	font-size: 2em;
+}
+
+.subtitle{
+	font-size: 0.5em;
+	font-style: italic;
+	font-weight: 400;
+}
+
 h1,
 h2,
 h3,
@@ -206,6 +232,7 @@ h6 {
 .title{
 	text-align: left;
 	font-weight: 700;
+	font-size: 2.7em;
 }
 pre {
     background-color: #fdf6e3;
