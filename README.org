@@ -22,7 +22,7 @@ as-is, you can just link to the file in the GitHub repository:
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/DiegoVicen/org-css/master/stylesheet.css" />
 #+END_SRC
 
----
+-----
 
 This code is licensed under MIT License, which allows for free use,
 modification and distribution. Attribution is not needed but appreciated, and
