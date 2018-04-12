@@ -167,7 +167,7 @@ div.banner{
     font-weight: 700;
 	text-align: center;
 	color: #657b83;
-	margin-bottom: 10%;
+	margin-bottom: 1em;
 }
 #name{
 	color: #657b83;
@@ -193,6 +193,7 @@ h3,
 h4,
 h5,
 h6 {
+	padding-top: 0.6em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 }
@@ -273,6 +274,62 @@ h6 {
 .footnotes {
 	font-size: 2.1em;
 	font-style: italic;
+}
+
+/* .footer-icons{ */
+/* 	text-align: center; */
+/* 	text-decoration: none; */
+/* 	margin: auto; */
+/* } */
+
+/* .footer-icons:hover{ */
+/* 	text-decoration: none; */
+/* } */
+
+/* .fa,.fab{ */
+/* 	color: #fffff8; */
+/* } */
+/* .fa-stack-2x{ */
+/* 	color: #657b83; */
+/* } */
+/* .fa-stack-2x:hover { */
+/*     color: #3f9f9f; */
+/* } */
+
+#footer {
+	width: 100%;
+	font-size: 1.2em;
+	margin-bottom: 3em;
+	margin-top: 15%;
+}
+
+#footer ul {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height:2em;
+	margin: 0;
+	padding: 0;
+}
+#footer li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+#footer a {
+	color: #657b83;
+}
+
+#footer a:hover {
+	color: #3f9f9f;
+}
+
+#license-note {
+	color: #657b83;
+	text-align: center;
+	font-size: 75%;
+	padding-top: 3em;
 }
 
 /* Fallback for other elements from solarized-css */
