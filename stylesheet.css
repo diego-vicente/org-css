@@ -84,9 +84,21 @@ sup {
 sub {
     bottom: -0.25em;
 }
+
 img {
     border: 0;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
 }
+.figure p {
+	color: #657b83;
+	text-align: center;
+	font-size: 90%;
+	font-style: italic;
+}
+
+
 svg:not(:root) {
     overflow: hidden;
 }
