@@ -186,6 +186,11 @@ div.banner{
 	text-decoration: none;
 	font-size: 5em;
 }
+@media all and (max-width: 650px) {
+  #name {
+    font-size: 3em;
+  }
+}
 #name:hover {
     color: #3f9f9f;
 }
