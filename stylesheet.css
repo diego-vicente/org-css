@@ -222,6 +222,7 @@ body {
 }
 code {
     background-color: #fdf6e3;
+	font-size: 80%;
     padding: 2px;
 	border-radius: 0.3em;
 }
