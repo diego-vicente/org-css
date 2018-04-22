@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Quicksand|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand|Roboto+Mono');
 
 article,
 aside,
@@ -32,6 +32,9 @@ html {
 }
 body {
     margin: 0;
+}
+body p, body ul{
+	font-size: 1.2rem;
 }
 a:focus {
     outline: thin dotted;
@@ -167,7 +170,7 @@ table {
 	margin: auto;
 }
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 pre,
 code {
@@ -227,7 +230,7 @@ body {
 }
 code {
     background-color: #fdf6e3;
-	font-size: 80%;
+	font-size: 90%;
     padding: 2px;
 	border-radius: 0.3em;
 }
