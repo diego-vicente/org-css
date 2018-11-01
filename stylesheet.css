@@ -1,4 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand|Roboto+Mono');
+/* @import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand|Roboto+Mono'); */
+
+/* Quicksand typefaces */
+@font-face {
+    font-family: Quicksand;
+    src: url(https://diego.codes/fonts/Quicksand/Quicksand-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(https://diego.codes/fonts/Quicksand/Quicksand-Bold.ttf);
+    font-weight: bold;
+}
+
+/* Nunito typefaces */
+@font-face {
+    font-family: Nunito;
+    src: url(https://diego.codes/fonts/Nunito/Nunito-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(https://diego.codes/fonts/Nunito/Nunito-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(https://diego.codes/fonts/Nunito/Nunito-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(https://diego.codes/fonts/Nunito/Nunito-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Roboto Mono typefaces */
+@font-face {
+    font-family: Roboto Mono;
+    src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 
 article,
 aside,
@@ -176,7 +249,7 @@ code {
 
 div.banner{
 	font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+    /* font-weight: bold; */
 	text-align: left;
 	color: #657b83;
     padding-bottom: 1em;
@@ -204,7 +277,7 @@ p#subtitle{
 .subtitle{
 	font-size: 0.5em;
 	font-style: italic;
-	font-weight: 400;
+	font-weight: normal;
 }
 
 h1,
@@ -215,7 +288,7 @@ h5,
 h6 {
 	padding-top: 0.6em;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: normal;
 }
 html {
     background-color: #fffff8;
@@ -225,7 +298,7 @@ html {
 body {
     font-size: 13pt;
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 765px;
     padding: 1em;
 }
 code {
@@ -255,7 +328,7 @@ h6 {
 }
 .title{
 	text-align: left;
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 2em;
 }
 pre {
@@ -303,7 +376,7 @@ p, h1, h2, h3, h4, h5, h6, ul  {
 }
 .org-ref-bib-h1,
 .footnotes {
-	font-size: 2.1em;
+	font-size: 1.4rem;
 	font-style: italic;
 }
 
