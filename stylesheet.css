@@ -2,12 +2,14 @@
 
 /* Quicksand typefaces */
 @font-face {
+    font-display: swap;
     font-family: Quicksand;
     src: url(https://diego.codes/fonts/Quicksand/Quicksand-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
+    font-display: swap;
     font-family: Quicksand;
     src: url(https://diego.codes/fonts/Quicksand/Quicksand-Bold.ttf);
     font-weight: bold;
@@ -15,6 +17,7 @@
 
 /* Nunito typefaces */
 @font-face {
+    font-display: swap;
     font-family: Nunito;
     src: url(https://diego.codes/fonts/Nunito/Nunito-Regular.ttf);
     font-weight: normal;
@@ -22,6 +25,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Nunito;
     src: url(https://diego.codes/fonts/Nunito/Nunito-Bold.ttf);
     font-weight: bold;
@@ -29,6 +33,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Nunito;
     src: url(https://diego.codes/fonts/Nunito/Nunito-Italic.ttf);
     font-weight: normal;
@@ -36,6 +41,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Nunito;
     src: url(https://diego.codes/fonts/Nunito/Nunito-BoldItalic.ttf);
     font-weight: bold;
@@ -44,6 +50,7 @@
 
 /* Roboto Mono typefaces */
 @font-face {
+    font-display: swap;
     font-family: Roboto Mono;
     src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-Regular.ttf);
     font-weight: normal;
@@ -51,6 +58,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Roboto Mono;
     src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-Bold.ttf);
     font-weight: bold;
@@ -58,6 +66,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Roboto Mono;
     src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-Italic.ttf);
     font-weight: normal;
@@ -65,6 +74,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Roboto Mono;
     src: url(https://diego.codes/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf);
     font-weight: bold;
