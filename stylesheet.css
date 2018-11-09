@@ -185,9 +185,6 @@ img {
 svg:not(:root) {
     overflow: hidden;
 }
-figure {
-    margin: 0;
-}
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
@@ -376,7 +373,7 @@ p, h1, h2, h3, h4, h5, h6, ul  {
 
 }
 .figure {
-    max-width: 900px;
+    max-width: 765px;
     margin: 0 auto;
 }
 .tag {
